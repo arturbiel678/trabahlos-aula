@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de início</title>
+    <link rel="stylesheet" href="dados.css">
+    
+</head>
+
+
+<body>
+
+<div class="nome">
+    
+<h1>CUBO FILMS</h1>
+<p>Preencha seus dados abaixo:</p>
+
+<form id="meuFormulario">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade" required>
+  </form>
+
+<div class="formulario">
+<p>Agora que já te conhecemos sinta-se a vontade para clicar no botão abaixo e conhecer o nosso site!</p>
+
+</div>
+<button class="botao" onclick="verificarFormulario()" >ENTRAR </a></button>
+
+
+
+
+<script src="dados.js"></script>
+    
+</body>
+</html>

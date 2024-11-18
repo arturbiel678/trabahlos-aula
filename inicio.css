@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    background-color: rgb(62, 2, 2);
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #eef79d;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.no-results {
+    color: red;
+}
+
+.titulo{
+    color: white;
+}
+
+.titulo2{
+    color: white;
+}
